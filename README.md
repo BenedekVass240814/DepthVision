@@ -55,3 +55,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Demo
+
+You can view the demo of the project below:
+
+[Watch the demo](demo.mp4)
