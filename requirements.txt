@@ -1,0 +1,4 @@
+opencv-python
+mediapipe
+pyrealsense2
+numpy
