@@ -1,6 +1,6 @@
 # 🎭 RealSense Face Filters with Gesture Control
 
-A real-time, gesture-controlled face filter application using Intel RealSense cameras, OpenCV, and MediaPipe. This project enables users to apply fun and functional face filters—like mustaches, sunglasses, blur effects, and depth vision—using nothing but facial and hand gestures.
+A real-time, gesture-controlled face filter application using Intel RealSense cameras, OpenCV, and MediaPipe. This project enables users to apply fun and functional face filters: like mustaches, sunglasses, blur effects, and depth vision—using nothing but facial and hand gestures.
 
 ![Demo Preview](DepthChallengeV2/assets/mustache.png)
 
@@ -19,25 +19,6 @@ A real-time, gesture-controlled face filter application using Intel RealSense ca
 **Language:** Python  
 **Libraries:** OpenCV, MediaPipe, pyrealsense2, NumPy  
 **Hardware:** Intel RealSense Depth Camera (D435, D415 recommended)
-
-## 📁 Project Structure
-
-assets/
-├── sunglasses.png
-└── mustache.png
-
-src/
-├── face_filters.py                # Functions for blur, overlays, depth
-├── facial_landmark_recognition.py# Facial landmark detection (MediaPipe)
-├── gesture_recognition.py         # Maps gestures to filters
-├── hand_landmark_detection.py     # Hand landmark detection
-├── realsense_capture.py           # Core camera and frame processing logic
-└── webcam_constant.py             # Constants for UI and filters
-
-main.py                            # Entry point for launching the app
-requirements.txt                   # Python dependencies
-README.md                          # Project documentation
-
 
 ## 🎮 How It Works
 
@@ -59,8 +40,7 @@ Filters are applied in real-time using live camera data and landmark analysis.
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/realsense-face-filters.git
-cd realsense-face-filters
+git clone https://github.com/BenedekVass240814/DepthVision.git
 ```
 
 ### 2. Install dependencies
